@@ -7,13 +7,6 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '*.public.blob.vercel-storage.com',
-        port: '',
-      },
-    ],
     unoptimized: true,
   },
 }
